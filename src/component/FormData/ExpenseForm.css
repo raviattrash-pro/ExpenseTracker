@@ -1,0 +1,26 @@
+.form-data-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1 rem;
+    margin-bottom: 1 rem;
+    text-align: left;
+}
+
+.form-data-control label {
+    font-weight: bold;
+    display: block;
+    margin: 1rem;
+}
+
+.form-data-control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    width: 20rem;
+    max-width: 100%;
+    margin: 1rem;
+}
+
+.form-data-actions {
+    text-align: right;
+}
